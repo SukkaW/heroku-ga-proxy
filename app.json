@@ -1,11 +1,12 @@
 {
-    "name": "Reverse Proxy",
+    "name": "Heroku GA Proxy",
     "description": "Spin up a reverse proxy quickly on Heroku",
     "keywords": [
         "reverse proxy",
-        "nginx"
+        "nginx",
+        "google-analytics"
     ],
-    "repository": "https://github.com/cwarden/heroku-reverse-proxy",
+    "repository": "https://github.com/SukkaW/heroku-ga-proxy",
     "buildpacks": [
         {
             "url": "http://github.com/leafo/heroku-buildpack-lua.git"
@@ -13,7 +14,7 @@
     ],
     "env": {
         "UPSTREAM_SERVER": {
-            "description": "URL of upstream server to which all requests should be proxied"
+            "description": "Already Deprecated. Ignore the form please."
         }
     },
     "stack": "heroku-18"
