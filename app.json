@@ -11,11 +11,6 @@
         {
             "url": "http://github.com/leafo/heroku-buildpack-lua.git"
         }
-    ],
-    "env": {
-        "UPSTREAM_SERVER": {
-            "description": "Already Deprecated. Ignore the form please."
-        }
-    },
+    ]
     "stack": "heroku-18"
 }
