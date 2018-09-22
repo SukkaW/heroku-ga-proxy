@@ -11,6 +11,6 @@
         {
             "url": "http://github.com/leafo/heroku-buildpack-lua.git"
         }
-    ]
+    ],
     "stack": "heroku-18"
 }
